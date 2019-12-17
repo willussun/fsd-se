@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: zuul-module
+
+server:
+  port: 8090
+
+eureka:
+  instance:
+    hostname: localhost
+  serviceUrl:
+    defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  sensitive-headers:
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds:
+              600000
+ribbon:
+  ConnectionTimeout: 200000
+  ReadTimeout: 200000

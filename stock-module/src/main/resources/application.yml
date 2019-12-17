@@ -1,0 +1,23 @@
+spring:
+  jackson:
+    time-zone: GMT+8
+  application:
+    name: stock-module
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/stock?useUnicode=true&characterEncoding=UTF-8&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8
+    username: root
+    password: passw0rd
+
+server:
+  port: 8012
+
+  eureka:
+    instance:
+      hostname: localhost
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

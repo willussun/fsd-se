@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sector-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-module" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
